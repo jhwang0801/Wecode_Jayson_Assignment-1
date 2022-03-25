@@ -248,6 +248,19 @@ p {
 #banner p:nth-child(1) span {
   animation-delay: 4.5s;
 }
+#banner i {
+  position: fixed;
+  bottom: 70px;
+  right: 70px;
+  font-size: 5rem;
+  color: #eb7552;
+  display: none;
+}
+#banner .gotop_btn:hover i {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.3s ease;
+}
 /* End Banner Section */
 
 /* Skill Section */
@@ -484,7 +497,7 @@ p {
 
 /* Footer */
 #footer {
-  background-image: linear-gradient(60deg, #29323c 0%, #547b97 100%);
+  background-image: linear-gradient(60deg, #547b97 30%, #29323c 100%);
 }
 #footer .footer {
   min-height: 200px;
